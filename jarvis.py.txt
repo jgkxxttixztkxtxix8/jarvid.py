@@ -1,0 +1,40 @@
+import pytt
+
+Assistant - pyttax.init(supis"} 
+voices Accistant.getProperty("mics)
+print (voices)
+Assistant.setProperty("uuizes;,volors[0],id) 
+
+def speak (audio):
+    print ("   ")
+     Assistant.say(audio)
+    print ("   ")
+     Assistant.runandwait()
+     
+     speak ('hello sir,hello')
+     
+ def takecommand().
+ 
+ command = recogniser()
+ with sr.Microphone() as source:
+      print("listening......")
+      command.pause_threshold - 1
+      audio = command.(source)
+      try:
+        
+      print("recognising.....")
+      
+     query = command.recognise_google(audio, language='en-in'
+     print(f"you said : (query)")
+     except Expection as error: 
+       
+      return "none"
+      return query.lower()
+      query = takecommand()
+      if'hello' in query: 
+        
+      speak ("hello sir")
+      
+      
+      else: 
+        speak("no command found")
